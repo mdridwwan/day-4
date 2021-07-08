@@ -1,0 +1,30 @@
+#nd:focus {
+    color: rgb(38, 0, 255);
+}
+
+a:visited {
+    color: blue;
+}
+
+li:first-child {
+    color: chocolate;
+}
+
+li:last-child {
+    background-color: coral;
+}
+
+li:nth-child(2n) {
+    color: cyan;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 0px 10px;
+    font-size: 30px;
+}
