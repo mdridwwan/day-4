@@ -2,7 +2,35 @@
     color: rgb(38, 0, 255);
 }
 
-a:visited {
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: honeydew;
+}
+
+.dropdown {
+    display: none;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+
+/* a:visited {
     color: blue;
 }
 
@@ -10,13 +38,9 @@ li:first-child {
     color: chocolate;
 }
 
-li:last-child {
-    background-color: coral;
-}
-
 li:nth-child(2n) {
     color: cyan;
-}
+} */
 
 table {
     border-collapse: collapse;
